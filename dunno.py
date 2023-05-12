@@ -7,6 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1Jk7sJIuwP0PosB-qQGji2qXbfHIcLXCn
 """
 
+pip install tensorflow
+
+
 import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
