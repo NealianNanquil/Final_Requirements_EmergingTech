@@ -15,8 +15,6 @@ Instructor: Engr. Roman Richard<br>
 from google.colab import drive
 drive.mount('/content/drive')
 
-!pip install split_folders -q
-
 # Final model
 
 import numpy as np
