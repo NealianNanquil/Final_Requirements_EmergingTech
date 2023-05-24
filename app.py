@@ -18,7 +18,7 @@ def load_model():
   model=tf.keras.models.load_model('final_model.h5')
   return model
 model=load_model()
-st.title("# Shoe Classifier")
+st.title("🥾 Shoe Classifier")
 file=st.file_uploader("Choose a photo from your computer",type=["jpg","png"])
 
 def import_and_predict(image_data,model):
